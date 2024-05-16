@@ -1,0 +1,138 @@
+.d-flex.flex-row.mb-4.edit-icons i:before {
+  color: #787878;
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.d-flex.flex-row.mb-4.edit-icons {
+  justify-content: right;
+}
+
+i.fa.fa-trash:hover:before {
+  color: red !important;
+}
+
+i.fa.fa-edit:hover:before {
+  color: blue !important;
+}
+
+.bg-img {
+  --bs-bg-opacity: 1;
+  background-image: url(./assets/images/HomeBanner.png);
+  background-size: 100% 100%;
+}
+
+.btn-right-cancel button {
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.kudosClass:hover:before {
+  color: rgba(226, 237, 9, 0.911)
+}
+
+.kudosExistClass {
+  color: rgba(226, 237, 9, 0.911);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.kudosClass:before {
+  color: #ccc;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.just-right {
+  justify-content: right !important;
+}
+
+h6,
+.h6 {
+  font-size: 18px !important;
+  font-weight: 400;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #497935 !important;
+  border-color: #497935 !important;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.input-width {
+  width: 50% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .mbl-resp {
+    position: absolute !important;
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: #fff !important;
+    right: 20px !important;
+    /* left: 0px !important; */
+    top: 70px !important;
+    /* width: 184px !important; */
+    /* margin: 0 auto !important; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 1px 10px #000;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .mbl-resp {
+    position: absolute !important;
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: #fff !important;
+    right: 20px !important;
+    top: 70px !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 1px 10px #000;
+  }
+}
+
+.tab-content p {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.btn-success:disabled {
+  cursor: not-allowed;
+
+  /* background-color: #487c9b; */
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ext-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
+.w-75.center-cont {
+  margin: 0 auto;
+}
+
+label.quest-label {
+  background: #497935;
+  padding: 2px 8px;
+  color: #fff;
+  border-radius: 6px;
+}
